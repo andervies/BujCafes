@@ -22,7 +22,7 @@ class Cafe(db.Model):
 
 @app.route("/")
 def home():
-    return "hello world"
+    return "Hi, Dev. Welcome to Buj Cafes"
 
 
 if __name__ == "__main__":
