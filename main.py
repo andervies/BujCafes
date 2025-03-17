@@ -22,6 +22,8 @@ class Cafe(db.Model):
 
 @app.route("/")
 def home():
+    """Return root route"""
+    
     return "Hi, Dev. Welcome to Buj Cafes"
 
 
